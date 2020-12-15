@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title> </title>
+  	<meta charset="utf-8" />
+    <link rel="stylesheet" href="NOLASound.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="NOLASound.js"></script>
+  </head>
+
+<style>
+@font-face {
+  font-family: Mazius;
+  src: url(Mazius_Italic.otf);
+}
+
+body {
+   font-family: Mazius;
+}
+</style>
+
+  <body>
+
+    <div class="cssmenu">
+<!-- THIS IS A HIDDEN TEXT
+      <object type="image/svg+xml" data="Menu.svg"></object>
+  -->
+      <!--
+      <p class="head">My personal Sound of New Orleans</p>
+      -->
+
+      <!--
+      <a class="ProjectDescription" href="ProjectDescription">ProjectDescription</a>
+      <a class="HowtoReadMe" href="HowtoReadMe">Turn on the guids</a>
+      <a class="GridSystem" href="GridSystem">Grid System</a>
+      -->
+
+    </div>
+
+
+    <div>
+      <div class="map">
+        <object type="image/svg+xml" data="Map.svg" width="99%"></object>
+      </div>
+
+
+      <div class="resize">
+        <!-- 3.5/4.5/x/7/7.5 -->
+        <!-- 26 -->
+        <object class= "Dot" width="1.3%" type="image/svg+xml" data="Dot.svg"></object>
+
+        <div id= "Notfound">
+          <object class= "first2601" width="3.5%" type="image/svg+xml" data="Graphic26/first2601.svg"></object>
+          <object class= "Eighth26" width="3.3%" type="image/svg+xml" data="Graphic26/Eighth26.svg"></object>
+          <object class= "BenClock2705" width="3.3%" type="image/svg+xml" data="Graphic27/BenClock2705.svg"></object>
+          <object class= "Bar2901" width="4%" type="image/svg+xml" data="Graphic29/Bar2901.svg"></object>
+          <object class= "JazzMusicWilly2905" width="5.1%" type="image/svg+xml" data="Graphic29/JazzMusicWilly2905.svg"></object>
+          <object class= "YardShop3010" width="3.3%" type="image/svg+xml" data="Graphic30/YardShop3010.svg"></object>
+          <object class= "RockMusic3001" width="4%" type="image/svg+xml" data="Graphic30/RockMusic3001.svg"></object>
+
+          <object class= "NASGeorgeLewis2701" class="Lightsup" width="4.5%" type="image/svg+xml" data="Graphic27/NASGeorgeLewis2701.svg"></object>
+          <object class= "NASSweetLorraine2802" width="4.3%" type="image/svg+xml" data="Graphic28/NASSweetLorraine2802.svg"></object>
+          <object class= "NASMakeItWithYou2806" width="4.5%" type="image/svg+xml" data="Graphic28/NASMakeItWithYou2806.svg"></object>
+          <object class= "NASCaroline2808" width="5.3%" type="image/svg+xml" data="Graphic28/NASCaroline2808.svg"></object>
+          <object class= "NASManEater2904" width="4.3%" type="image/svg+xml" data="Graphic29/NASManEater2904.svg"></object>
+          <object class= "NASHappyNewYearBlues2907" width="4.1%" type="image/svg+xml" data="Graphic29/NASHappyNewYearBlues2907.svg"></object>
+          <object class= "NASNightsLikeThese2908" width="4.3%" type="image/svg+xml" data="Graphic29/NASNightsLikeThese2908.svg"></object>
+          <object class= "NASWastedDaysAndNights3101" width="4.5%" type="image/svg+xml" data="Graphic31/NASWastedDaysAndNights3101.svg"></object>
+          <object class= "NASAirport3106" width="4.3%" type="image/svg+xml" data="Graphic31/NASAirport3106.svg"></object>
+
+          <span class="recyellow"> This Data contains no Sound.</span>
+        </div>
+
+        <div id= "SoundPlaying">
+            <span class="recgreen">Currently Playing. Click if Hearing no Sound.</span>
+
+        <object class= "Infrontofdumond2601" width="7.5%" type="image/svg+xml" data="Graphic26/Infrontofdumond2601.svg"></object>
+        <object class= "TapDance2602" width="3.7%" type="image/svg+xml" data="Graphic26/TapDance2602.svg"></object>
+        <object class= "DecaturSt2603" width="4.1%" type="image/svg+xml" data="Graphic26/DecaturSt2603.svg"></object>
+        <object class= "Music10272604" width="4.1%" type="image/svg+xml" data="Graphic26/Music10272604.svg"></object>
+        <object class= "Saba2605" width="4.8%" type="image/svg+xml" data="Graphic26/Saba2605.svg"></object>
+        <object class= "RoyalSt2606" width="3.3%" type="image/svg+xml" data="Graphic26/RoyalSt2606.svg"></object>
+        <object class= "SpottedCat2607" width="6.8%" type="image/svg+xml" data="Graphic26/SpottedCat2607.svg"></object>
+        <!-- 27 -->
+        <object class= "CafeDuMonde2702" width="7.5%" type="image/svg+xml" data="Graphic27/CafeDuMonde2702.svg"></object>
+        <object class= "IbervilleStMusic2703" width="4%" type="image/svg+xml" data="Graphic27/IbervilleStMusic2703.svg"></object>
+        <object class= "TheNationalWWIIMuseum2704" width="5.2%" type="image/svg+xml" data="Graphic27/TheNationalWWIIMuseum2704.svg"></object>
+        <object class= "JazzInAlleyWay2706" width="4.3%" type="image/svg+xml" data="Graphic27/JazzInAlleyWay2706.svg"></object>
+        <!-- 28 -->
+        <object class= "JazzMusicOntheStreet2801" width="4%" type="image/svg+xml" data="Graphic28/JazzMusicOntheStreet2801.svg"></object>
+        <object class= "Violin2803" width="6.7%" type="image/svg+xml" data="Graphic28/Violin2803.svg"></object>
+        <object class= "FunkyMusic2804" width="5.3%" type="image/svg+xml" data="Graphic28/FunkyMusic2804.svg"></object>
+        <object class= "Saxphone2805" width="7.5%" type="image/svg+xml" data="Graphic28/Saxphone2805.svg"></object>
+        <object class= "SingerOnTheStreetBTB2807" width="5.3%" type="image/svg+xml" data="Graphic28/SingerOnTheStreetBTB2807.svg"></object>
+        <!-- 29 -->
+        <object class= "DuoThree2902" width="7.5%" type="image/svg+xml" data="Graphic29/DuoThree2902.svg"></object>
+        <object class= "Violin2903" width="7.5%" type="image/svg+xml" data="Graphic29/Violin2903.svg"></object>
+        <object class= "GuitarSoundBourbon2906" width="4.1%" type="image/svg+xml" data="Graphic29/GuitarSoundBourbon2906.svg"></object>
+        <object class= "BandPerformOnTheStreet2909" width="5.2%" type="image/svg+xml" data="Graphic29/BandPerformOnTheStreet2909.svg"></object>
+        <object class= "AnotherBandOnStreet2910" width="5.2%" type="image/svg+xml" data="Graphic29/AnotherBandOnStreet2910.svg"></object>
+        <object class= "ToolStore2911" width="4%" type="image/svg+xml" data="Graphic29/ToolStore2911.svg"></object>
+        <!-- 30 -->
+        <object class= "SteamBoatMusic3002" width="7.5%" type="image/svg+xml" data="Graphic30/SteamBoatMusic3002.svg"></object>
+        <object class= "JazzOnStreamBoat3003" width="4%" type="image/svg+xml" data="Graphic30/JazzOnStreamBoat3003.svg"></object>
+        <object class= "SteamSoung3004" width="7.5%" type="image/svg+xml" data="Graphic30/SteamSoung3004.svg"></object>
+        <object class= "Triste3005" width="4.5%" type="image/svg+xml" data="Graphic30/Triste3005.svg"></object>
+        <object class= "SongPlayingBourbon3006" width="4%" type="image/svg+xml" data="Graphic30/SongPlayingBourbon3006.svg"></object>
+        <object class= "RandonSong3007" width="5.3%" type="image/svg+xml" data="Graphic30/RandonSong3007.svg"></object>
+        <object class= "Guitar3008" width="5.5%" type="image/svg+xml" data="Graphic30/Guitar3008.svg"></object>
+        <object class= "Harp3009" width="4%" type="image/svg+xml" data="Graphic30/Harp3009.svg"></object>
+
+        <object class= "BronzeBandPlaying3011" width="7.5%" type="image/svg+xml" data="Graphic30/BronzeBandPlaying3011.svg"></object>
+        <object class= "LaMaison3012" width="6.8%" type="image/svg+xml" data="Graphic30/LaMaison3012.svg"></object>
+        <object class= "OnStreetSittingPlaying3013" width="4.1%" type="image/svg+xml" data="Graphic30/OnStreetSittingPlaying3013.svg"></object>
+        <!-- 31 -->
+        <object class= "ClockBellTicking3102" width="4%" type="image/svg+xml" data="Graphic31/ClockBellTicking3102.svg"></object>
+        <object class= "MagicTrick3103" width="7.5%" type="image/svg+xml" data="Graphic31/MagicTrick3103.svg"></object>
+        <object class= "Trumpet3104" width="5.3%" type="image/svg+xml" data="Graphic31/Trumpet3104.svg"></object>
+        <object class= "LittleLightOfMine3105" width="3.5%" type="image/svg+xml" data="Graphic31/LittleLightOfMine3105.svg"></object>
+          </div>
+     </div>
+
+    </div>
+
+  </body>
+
+</html>
