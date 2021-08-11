@@ -1,0 +1,442 @@
+
+body {
+  background: url(BG.png);
+}
+
+
+
+.cssmenu {
+       position:fixed;
+       margin:auto;
+       bottom:83.5%;
+       left: -4.5%;
+       right: auto;
+       top: initial;
+       width: 128%;
+        z-index:1;
+      }
+
+.head {
+  position:fixed;
+  margin: auto;
+  top: 9px;
+  left:70px;
+  bottom:400px;
+  font-size: 25px;
+  font-size: 1.9vw;
+}
+
+.ProjectDescription {
+  position:fixed;
+  margin: auto;
+  top: 18px;
+  right: 58px;
+  font-size: 14px;
+  font-size: 1vw;
+}
+
+.HowtoReadMe{
+  position:fixed;
+  top: 250px;
+  right:79px;
+  font-size: 14px;
+  font-size: 1vw;
+}
+.GridSystem{
+  position:fixed;
+  top: 300px;
+  right:97px;
+  font-size: 14px;
+  font-size: 1vw;
+}
+
+.resize{
+max-width: 100%
+ height: auto;
+width:auto;
+}
+
+.Dot{
+  position:absolute;
+  top:8.2%;
+  right:4.8%;
+}
+
+
+.recyellow {
+  width:25px;
+  height:1530px;
+  background: yellow;
+  opacity: 0;
+  position:absolute;
+  display: hidden;
+  top:0px;
+  right:0px;
+  margin-left: 20px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+
+#Notfound:hover .recyellow {
+position: absolute;
+overflow: hidden;
+opacity: 100;
+}
+
+.recgreen {
+  width:25px;
+  height:1530px;
+  background: lightgreen;
+  opacity: 0;
+  position:absolute;
+  display: hidden;
+  top:0px;
+  right:0px;
+  margin-left: 20px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+
+
+#SoundPlaying:hover .recgreen {
+position: absolute;
+overflow: hidden;
+opacity: 100;
+}
+
+
+
+.first2601{
+  position:absolute;
+  top:14%;
+  right:36%;
+}
+
+.TapDance2602{
+  position:absolute;
+  top:73.1%;
+  right:35.7%;
+}
+.Infrontofdumond2601{
+  position:absolute;
+  top:79.3%;
+  right:37%;
+}
+.DecaturSt2603{
+  position:absolute;
+  top:116.3%;
+  right:50.6%;
+}
+.Music10272604{
+  position:absolute;
+  top:124.6%;
+  right:55.7%;
+}
+.Saba2605{
+  position:absolute;
+  top:160.6%;
+  right:86.2%;
+}
+.RoyalSt2606{
+  position:absolute;
+  top:44%;
+  right:36.2%;
+}
+
+.Eighth26{
+  position:absolute;
+  top:29.2%;
+  right:31.1%;
+}
+
+.SpottedCat2607{
+  position: absolute;
+  top:35.4%;
+  right:25.8%;
+  overflow: hidden;
+}
+
+
+.NASGeorgeLewis2701{
+  position: absolute;
+  top:17.8%;
+  right:35.4%;
+  overflow: hidden;
+}
+
+
+.CafeDuMonde2702{
+  position: absolute;
+  top:82%;
+  right:36.9%;
+  overflow: hidden;
+}
+.IbervilleStMusic2703{
+  position: absolute;
+  top:116.1%;
+  right:61%;
+  overflow: hidden;
+}
+.TheNationalWWIIMuseum2704{
+  position: absolute;
+  top:163%;
+  right:70%;
+  overflow: hidden;
+}
+.BenClock2705{
+  position: absolute;
+  top:141%;
+  right:66.9%;
+  overflow: hidden;
+}
+.JazzInAlleyWay2706{
+  position: absolute;
+  top:86.5%;
+  right:51.3%;
+  overflow: hidden;
+}
+
+
+.JazzMusicOntheStreet2801{
+  position: absolute;
+  top:69%;
+  right:40.3%;
+  overflow: hidden;
+}
+.NASSweetLorraine2802{
+  position: absolute;
+  top:73%;
+  right:45.7%;
+  overflow: hidden;
+}
+.Violin2803{
+  position: absolute;
+  top:79%;
+  right:43.3%;
+  overflow: hidden;
+}
+.FunkyMusic2804{
+  position: absolute;
+  top:84.8%;
+  right:39%;
+  overflow: hidden;
+}
+.Saxphone2805{
+  position: absolute;
+  top:91.5%;
+  right:42.1%;
+  overflow: hidden;
+}
+.NASMakeItWithYou2806{
+  position: absolute;
+  top:126%;
+  right:76.7%;
+  overflow: hidden;
+}
+.SingerOnTheStreetBTB2807{
+  position: absolute;
+  top:68%;
+  right:51.3%;
+  overflow: hidden;
+}
+.NASCaroline2808{
+  position: absolute;
+  top:58%;
+  right:30.9%;
+  overflow: hidden;
+}
+
+
+.Bar2901{
+  position: absolute;
+  top:76.7%;
+  right:35.5%;
+  overflow: hidden;
+}
+.DuoThree2902{
+  position: absolute;
+  top:94%;
+  right:36.9%;
+  overflow: hidden;
+}
+.Violin2903{
+  position: absolute;
+  top:81.8%;
+  right:42.2%;
+  overflow: hidden;
+}
+.NASManEater2904{
+  position: absolute;
+  top:72.7%;
+  right:50.7%;
+  overflow: hidden;
+}
+.JazzMusicWilly2905{
+  position: absolute;
+  top:80%;
+  right:54.7%;
+  overflow: hidden;
+}
+.GuitarSoundBourbon2906{
+  position: absolute;
+  top:95%;
+  right:55.6%;
+  overflow: hidden;
+}
+.NASHappyNewYearBlues2907{
+  position: absolute;
+  top:119%;
+  right:61.2%;
+  overflow: hidden;
+}
+.NASNightsLikeThese2908{
+  position: absolute;
+  top:87.7%;
+  right:56.3%;
+  overflow: hidden;
+}
+.BandPerformOnTheStreet2909{
+  position: absolute;
+  top:91.3%;
+  right:51.5%;
+  overflow: hidden;
+}
+.AnotherBandOnStreet2910{
+  position: absolute;
+  top:83.5%;
+  right:51.7%;
+  overflow: hidden;
+}
+.ToolStore2911{
+  position: absolute;
+  top:67%;
+  right:46.4%;
+  overflow: hidden;
+}
+
+
+.RockMusic3001{
+  position: absolute;
+  top:87.4%;
+  right:40.4%;
+  overflow: hidden;
+}
+.SteamBoatMusic3002{
+  position: absolute;
+  top:97%;
+  right:42.1%;
+  overflow: hidden;
+}
+.JazzOnStreamBoat3003{
+  position: absolute;
+  top:89%;
+  right:9.6%;
+  overflow: hidden;
+}
+.SteamSoung3004{
+  position: absolute;
+  top:134.2%;
+  right:32%;
+  overflow: hidden;
+}
+.Triste3005{
+  position: absolute;
+  top:90.5%;
+  right:56.3%;
+  overflow: hidden;
+}
+.SongPlayingBourbon3006{
+  position: absolute;
+  top:91%;
+  right:61.8%;
+  overflow: hidden;
+}
+.RandonSong3007{
+  position: absolute;
+  top:77.1%;
+  right:51.7%;
+  overflow: hidden;
+}
+.Guitar3008{
+  position: absolute;
+  top:64.2%;
+  right:41%;
+  overflow: hidden;
+}
+.Harp3009{
+  position: absolute;
+  top:57.5%;
+  right:41.5%;
+  overflow: hidden;
+}
+.YardShop3010{
+  position: absolute;
+  top:28.8%;
+  right:25.9%;
+  overflow: hidden;
+}
+
+#YardShop3010:hover .NF {
+position: absolute;
+overflow: hidden;
+}
+
+.BronzeBandPlaying3011{
+  position: absolute;
+  top:44%;
+  right:21.5%;
+  overflow: hidden;
+}
+.LaMaison3012{
+  position: absolute;
+  top:51%;
+  right:22.3%;
+  overflow: hidden;
+}
+.OnStreetSittingPlaying3013{
+  position: absolute;
+  top:39.5%;
+  right:26.2%;
+  overflow: hidden;
+}
+
+
+
+.NASWastedDaysAndNights3101{
+  position: absolute;
+  top:48%;
+  right:35.4%;
+  overflow: hidden;
+}
+.ClockBellTicking3102{
+  position: absolute;
+  top:89.5%;
+  right:40.2%;
+  overflow: hidden;
+}
+.MagicTrick3103{
+  position: absolute;
+  top:83.8%;
+  right:32.5%;
+  overflow: hidden;
+}
+.Trumpet3104{
+  position: absolute;
+  top:85%;
+  right:44.4%;
+  overflow: hidden;
+}
+.LittleLightOfMine3105{
+  position: absolute;
+  top:87.4%;
+  right:46.3%;
+  overflow: hidden;
+}
+.NASAirport3106{
+  position: absolute;
+  top:15%;
+  right:91.5%;
+  overflow: hidden;
+}
